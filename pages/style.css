@@ -4,7 +4,7 @@
 }
 *{
     margin: 0px;
-    padding: 0 px;
+    padding: 0px;
 }
 body{
     display: flex;
@@ -70,4 +70,41 @@ body{
 .h4_menu{
     font-size: 20px;
     margin: 0px;
+}
+
+.winetrue{
+    width: 60px;
+    height: 60px;
+}
+.container_delivery{
+    width: 100%;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #57091D;
+    font-size: 20px;
+}
+.vinhacity_navbar{
+    font-size: 50px;
+    color: #e3e3e3;
+}
+a{
+    text-decoration: none;
+    color: #e3e3e3;
+}
+
+ul:hover{
+    -xpedu-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+    opacity: 60%;
+}
+.imgnavbar{
+    width: 40px;
+    height: 40px;
 }
