@@ -2,6 +2,10 @@
     font-family: font-main;
     src: url(/fonts/Chillout\ PERSONAL\ USE\ ONLY!.ttf);
 }
+@font-face{
+    font-family: font-number;
+    src: url(/fonts/Basic\ Light.ttf)
+}
 *{
     margin: 0px;
     padding: 0px;
@@ -11,6 +15,7 @@ body{
     flex-direction: row;
     font-family: font-main;
     font-size: 35px;
+    background-color:#e3e3e3;  
 
 }
 
@@ -80,6 +85,9 @@ body{
     width: 100%;
 }
 
+.img_wallpaper_settings{
+
+}
 .navbar{
     display: flex;
     flex-direction: row;
@@ -107,4 +115,102 @@ ul:hover{
 .imgnavbar{
     width: 40px;
     height: 40px;
+}
+
+.lazaranda{
+    width: 280px;
+    height: 280px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.guardian{
+    width: 280px;
+    height: 280px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.guardian2{
+    width: 280px;
+    height: 280px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.morcos{
+    width: 280px;
+    height: 280px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+
+
+main{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.grids1-2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 20%;
+    margin: 10%;
+    font-size: 20px;
+    border-radius: 10%;
+    font-family: font-number;
+    margin-top: 30%;
+    margin-bottom: 200px;
+    margin-top: 200px;
+}
+
+.grids3-4{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 20%;
+    margin: 10%;
+    font-size: 20px;
+    border-radius: 10%;
+    font-family: font-number;
+    margin-top: 30%;
+    margin-bottom: 200px;
+    margin-top: 200px;
+}
+
+.grid1, .grid2, .grid3, .grid4{
+    padding: 0px;    
+    border: 2px solid black;
+    border-radius: 10%;
+    margin-bottom: 200px;
+}
+
+.button_comprar{
+    color: #e3e3e3;
+    background-color:#57091D;
+    font-family: font-main;
+    height: 50px; 
+    width: 60px;
+    border-radius: 35%; 
+    margin: 10px;
+    
+}
+
+.anuncio{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 50px;
+    
+}
+
+.deliveryimg{
+    width: 1000px;
+    border: 5px solid gray;
+    border-radius: 30%;
 }
