@@ -22,7 +22,7 @@ body{
 .sec_left{
     background-color: #57091D;
     width: 50%;
-    height: 931px;
+    height: 1210px;
     color: #E3E3E3;
 }
 
@@ -30,7 +30,7 @@ body{
 .sec_right{
     background-color: #E3E3E3;
     width: 50%;
-    height: 931px;
+    height: 1210px;
     color: #57091D;
     
 }
@@ -85,17 +85,16 @@ body{
     width: 100%;
 }
 
-.img_wallpaper_settings{
-
-}
 .navbar{
     display: flex;
     flex-direction: row;
     width: 100%;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #57091D;
+    background-color: transparent;
     font-size: 20px;
+    font-weight: 1000;
+
 }
 .vinhacity_navbar{
     font-size: 50px;
@@ -143,8 +142,31 @@ ul:hover{
     margin-bottom: 20px;
     padding: 20px;
 }
+.chardonnay{
+    width: 280px;
+    height: 280px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.faccin{
+    width: 280px;
+    height: 280px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+.pinot{
+    width: 280px;
+    height: 280px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
 
-
+.derulo{
+    width: 280px;
+    height: 280px;
+    margin-bottom: 20px;
+    padding: 20px;
+} 
 
 main{
     display: flex;
@@ -152,8 +174,20 @@ main{
 
 }
 
-.grids1-2{
-    width: 100%;
+.dgrids{
+    display: block;
+    flex-direction: column;
+    text-align: center;
+    width: 20%;
+    margin: 10%;
+    font-size: 20px;
+    border-radius: 10%;
+    font-family: font-number;
+    margin-bottom: 200px;
+    margin-top: 200px;
+}
+
+/*.grids5-6{
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -162,12 +196,11 @@ main{
     font-size: 20px;
     border-radius: 10%;
     font-family: font-number;
-    margin-top: 30%;
     margin-bottom: 200px;
     margin-top: 200px;
 }
 
-.grids3-4{
+.grids7-8{
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -176,18 +209,56 @@ main{
     font-size: 20px;
     border-radius: 10%;
     font-family: font-number;
-    margin-top: 30%;
     margin-bottom: 200px;
     margin-top: 200px;
 }
 
-.grid1, .grid2, .grid3, .grid4{
+.grid5, .grid7{
     padding: 0px;    
     border: 2px solid black;
     border-radius: 10%;
     margin-bottom: 200px;
+    background-color: white;
 }
 
+.grid6, .grid8{
+    padding: 0px;    
+    border: 2px solid black;
+    border-radius: 10%;
+    margin-bottom: 200px;
+    background-color: white;
+}
+*/
+
+.dgrid{
+    padding: 0px;    
+    border: 2px solid black;
+    border-radius: 10%;
+    margin-bottom: 200px;
+    background-color: white;
+}
+
+
+.cgrids{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 20%;
+    margin: 10%;
+    font-size: 20px;
+    border-radius: 10%;
+    font-family: font-number;
+    margin-bottom: 200px;
+    margin-top: 200px;
+}
+
+.cgrid{
+    padding: 0px;    
+    border: 2px solid black;
+    border-radius: 10%;
+    margin-bottom: 200px;
+    background-color: white;
+} 
 .button_comprar {
     background: linear-gradient(to bottom right, #57091D, #FF9A5A);
     border: 0;
@@ -211,6 +282,12 @@ main{
     margin: 10px;
  }
 
+ .button_comprar:hover{
+    -xpedu-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+    opacity: 70%
+ }
 
 
 
@@ -219,22 +296,22 @@ main{
     flex-direction: column;
     text-align: center;
     align-items: center;
-    gap: 80px;
+    gap: 40px;
     margin-top: 50px;
+    color: #e3e3e3;
+    font-weight: 200;
     
 }
 
 .deliveryimg{
     width: 1000px;
-    border: 5px solid gray;
-    border-radius: 30%;
+    border-radius: 70%;
 }
 
 #footer{
     font-family: font-number;
     text-align: center;
-    border: 1px solid gray;
-    padding: 10px;
+
 }
 
 #foot_txt{
@@ -242,6 +319,60 @@ main{
     text-align: center;
     font-size: 20px;
     padding: 10px;
-    
+    color: #e3e3e3;
+    font-weight: 500;
+} 
 
+.bgimg{
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: -1;
+
+    display: block;
+    background-image: url('/img/conceito-de-seda-elegante-e-abstrato.jpg');
+    width: 100%;
+    height: 1210px;
+
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
 }
+
+.main_cardapio{
+    margin-bottom: 0px;
+}
+
+.cardapio{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 50px;
+    color: #e3e3e3;
+    font-weight: 200;
+}
+
+
+.cardapio_img{
+    width: 800px;
+    border-radius: 70%;
+}
+
+.sobre_title{
+    font-family: font-main;
+    text-align: center;
+    font-size: 80px;
+    color: #e3e3e3;
+    margin-top: 40px;
+}
+
+.sobre_paragraph{
+    font-family: font-number;
+    font-size: 25px;
+    color: #e3e3e3;
+}
+
