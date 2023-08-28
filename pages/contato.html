@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Delivery</title>
+    <title>Cadastro</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -37,21 +37,19 @@
         </nav>
 
 
-<body class="body_delivery">        
+<body class="body_cadastro">        
 
-        <div class="anuncio">
 
-        </div>
-
+        <h4 class="h4_cadastro">Cadastro!</h4>
 
         <main class="main_cadastro">
         <div class="grid_cadastro">
-            Nome: <input type="text" name="Nome" id="name">
-            Telefone: <input type="text" name="Telefone" id="tel">
-            E-mail: <input type="text" name="E-mail" id="email">
-            CPF: <input type="text" name="CPF" id="cpf">
-            CEP: <input type="text" name="CEP" id="cep">
-            <input id="button_confirm" type="button" value="Confirmar" class="confirm_button">
+            Nome: <input id="name" type="text" name="Nome" >
+            Telefone: <input id="tel" type="text" name="Telefone">
+            E-mail: <input id="email" type="text" name="E-mail" >
+            CPF: <input id="cpf" type="number" name="CPF" >
+            CEP: <input id="cep"type="number" name="CEP">
+            <input id="button_confirm" type="button" value="Confirmar" class="confirm_button" onclick="formulario()">
         </div>
 
         </main>
@@ -67,6 +65,9 @@
         <!--PENSAR SOBRE O HOVER NO DGRID E CGRID PARA APARECER AS QUALIFICAÇÕES DOS VINHOS AO PASSAR O MOUSE EM CIMA. TENTAR COLOCAR O BOTÃO DE COMPRA COMO EXCEÇÃO, PARA NÃO APLICAR O EFEITODO HOVER NELE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
     </div>
 </body>
+
+
+    <script src="script.js"></script>
 
 
 </html>

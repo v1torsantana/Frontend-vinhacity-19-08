@@ -379,6 +379,13 @@ main{
     color: #e3e3e3;
 }
 
+.sec_sobre{
+    width: 60%;
+    border: 1px solid #e3e3e3;
+    padding: 0px 30px 0px 30px;
+    border-radius: 15%;
+}
+
 .home_button{
     font-size: 35px;
     margin: 10px;
@@ -432,4 +439,16 @@ main{
     -ms-transform: scale(0.9);
     transform: scale(0.9);
     opacity: 70%
+}
+
+.body_cadastro{
+    text-align: center;
+}
+
+.h4_cadastro{
+    margin: 25px 0px 25px 854px;
+    color: #000000;
+    border: 1px solid black;
+    border-radius: 10%;
+    width: 10%;
 }
