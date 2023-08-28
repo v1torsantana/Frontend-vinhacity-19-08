@@ -449,9 +449,38 @@ main{
 }
 
 .h4_cadastro{
-    margin: 25px 0px 25px 854px;
+    margin: 120px 0px 25px 854px;
     color: #000000;
     border: 1px solid black;
     border-radius: 10%;
     width: 10%;
+}
+
+.upside_home{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin: 130px 0px 0px 0px;
+    text-align: left;
+}
+.main_home{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    gap: 200px;
+}
+
+.title_home{
+    font-family: font-main;
+}
+.subtitle_home{
+    font-family: font-number;
+    font-weight: 600;
+}
+
+.footer_home{
+    display: block;
+    margin: 500px 0px 0px 0px;
 }
