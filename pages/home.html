@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e53f97b99a.js" crossorigin="anonymous"></script>
 </head>
 <div class="bgimg">
 
@@ -48,15 +49,30 @@
         <section class="home_game_js">
             <h2 class="title_home">Prove o que você sabe sobre vinhos!</h2>
             <p class="subtitle_home">Participe do <em>game</em> abaixo!</p>
-            <!--SLIDESHOW NO JS-->
+       
         </section>
 
-    </main>
+        <div class="container-slider">
+            <button id="prev-button"><img src="/img/arrow.png" alt="prev-button"></button>
+            <div class="container-images">
+              <img src="/img/pergunta1.png" alt="p_1" class="slider on">
+              <img src="/img/pergunta2.png" alt="p_2" class="slider">
+              <img src="/img/pergunta3.png" alt="p_3" class="slider">
+              <img src="/img/pergunta4.png" alt="p_4" class="slider">
+            </div>
+            <button id="next-button"><img src="/img/arrow.png" alt="next-button"></button>
+            <div class="respostas">
+                Resposta:   <input type="button" value="A." class="respostas_btn">
+                            <input type="button" value="B." class="respostas_btn">
+                            <input type="button" value="C." class="respostas_btn">
+    
+              </div>
+          </div>
+          
 
-
-
-
-    <script src="script.js"></script>
+        <div>
+            <img id="image">
+        </div>
 </body>
         <section class="footer_home">
         
@@ -74,5 +90,7 @@
             <p>@2023 Todos os direitos reservados.</p>
         </div>
         </section>
+    
+    <script src="script.js"></script>
 
 </html>
