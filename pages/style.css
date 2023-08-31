@@ -449,11 +449,12 @@ main{
 }
 
 .h4_cadastro{
-    margin: 120px 0px 25px 854px;
+    margin: 0% 45% 0% 45%;
     color: #000000;
     border: 1px solid black;
     border-radius: 10%;
     width: 10%;
+    position:relative;
 }
 
 .upside_home{
@@ -472,7 +473,7 @@ main{
     gap: 200px;
 }
 
-.title_home{
+.title1_home{
     font-family: font-main;
 }
 .subtitle_home{
@@ -483,6 +484,7 @@ main{
 .footer_home{
     display: block;
     margin: 500px 0px 0px 0px;
+    position: fixed;
 }
 
 .slideshow_section{
@@ -498,6 +500,7 @@ main{
     width: 80%;
     min-height: 20vh;
     align-items: center;
+    text-align: center;
     justify-content: center;
     gap: 1rem;
 
@@ -507,6 +510,7 @@ main{
     position: relative;
     display: flex;
     align-items: center;
+    text-align: center;
     justify-content: center;
     width: 100%;
     
@@ -555,4 +559,32 @@ main{
     background-color:#57091D;
     border-style: none;
     text-align: center;
+}
+
+@media only screen and (max-width: 750px) {
+    .title_home{
+        margin: 0% 0% 0% 8%;
+        font-size: 45px;
+    }
+    .title1_home{
+        margin: 0% 0% 0% 8%;
+        font-size: 45px;
+    }
+    .subtitle_home{
+        margin: 0% 0% 0% 8%;
+
+    }
+    .slider{
+        width: 100%;
+    }
+    .container_slider{
+        /*arrumar em sala de aula*/
+    }
+    .acesse{
+        margin: 50% 0% 0% 0%;
+    }
+    .h4_cadastro{
+        margin: 0% 40% 0% 40%;
+        width: 20%;
+    }
 }
